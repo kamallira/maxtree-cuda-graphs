@@ -33,8 +33,12 @@ In the bin folder. Make sure to download the test image before running the bench
 >  ./bin/TestMaxtree --no-check --bench-kernel-only ./output.pgm
 ```
 
-#Test Image
+# Test Image
 The test image can be found here:
+
+```shell
+>  https://drive.google.com/file/d/1kb79XAXE1A_ioj8cBvhV2H70QLDZDSXg/view?usp=drive_link
+```
 
 
 
