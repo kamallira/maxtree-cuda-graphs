@@ -1,6 +1,6 @@
 # Modernized CUDA Maxtree with Graph Optimization
 
-This repository is a **revitalized and optimized** implementation of the Maxtree algorithm, originally developed by Nicolas Blin(https://gitlab.lre.epita.fr/nblin/max-tree). 
+This repository is a **revitalized and optimized** implementation of the Maxtree algorithm, originally developed by Nicolas Blin (https://gitlab.lre.epita.fr/nblin/max-tree). 
 
 The original codebase had become incompatible with modern build environments due to outdated dependencies and deprecated libraries. This project restores functionality for modern systems and introduces significant performance improvements using **CUDA Graphs**.
 
