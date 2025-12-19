@@ -17,20 +17,25 @@ ninja
 ```
 
 
-In the bin folder
+In the bin folder. Make sure to download the test image before running the benchmarks
 
 # Running the benchmarks
 
 1. Running benchmarks with memory transfers on:
 
 ```shell
->  ./bin/TestMaxtree --no-check  ../ouput.pgm
+>  ./bin/TestMaxtree --no-check  ./ouput.pgm
 ```
 
 2. Running benchmarks with memory transfers off:
 
 ```shell
->  ./bin/TestMaxtree --no-check --bench-kernel-only ./BHdV_PL_ATL20Ardt_1926_0004.pgm
+>  ./bin/TestMaxtree --no-check --bench-kernel-only ./output.pgm
 ```
+
+#Test Image
+The test image can be found here:
+
+
 
 
