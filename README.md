@@ -5,6 +5,6 @@ This repository is a **revitalized and optimized** implementation of the Maxtree
 The original codebase had become incompatible with modern build environments due to outdated dependencies and deprecated libraries. This project restores functionality for modern systems and introduces significant performance improvements using **CUDA Graphs**.
 
 ### Key Improvements
-* **Modernization:** * Updated build system (CMake/Conan) to support current CUDA toolkits.
+* **Modernization:**  Updated build system (CMake/Conan) to support current CUDA toolkits.
     * Refactored code to resolve dependency conflicts and deprecated API calls.
-* **Optimization:** * Implemented **CUDA Graphs** to replace iterative kernel launches, reducing CPU-side latency.
+* **Optimization:**  Implemented **CUDA Graphs** to replace iterative kernel launches, reducing CPU-side latency.
