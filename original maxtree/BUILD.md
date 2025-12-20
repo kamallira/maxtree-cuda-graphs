@@ -36,14 +36,14 @@ Ensure that `nvcc` is correctly installed and note its absolute path.
 From the root of the repository:
 
 ```shell
-mkdir build && cd build
-conan install .. --output-folder=. --build=missing -s compiler.cppstd=20
-cmake .. \
-  -DCMAKE_CUDA_COMPILER=/usr/local/cuda-12/bin/nvcc \
-  -DCMAKE_TOOLCHAIN_FILE=conan_toolchain.cmake \
-  -DCMAKE_BUILD_TYPE=Release \
-  -G Ninja
-ninja
+> mkdir build && cd build
+> conan install .. --output-folder=. --build=missing -s compiler.cppstd=20
+> cmake .. \
+    -DCMAKE_CUDA_COMPILER=/usr/local/cuda-12/bin/nvcc \
+    -DCMAKE_TOOLCHAIN_FILE=conan_toolchain.cmake \
+    -DCMAKE_BUILD_TYPE=Release \
+    -G Ninja
+> ninja
 ```
 
 ## Running the Benchmarks
