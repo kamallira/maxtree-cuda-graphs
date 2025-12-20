@@ -7,7 +7,7 @@ Nicolas Blin, Edwin Carlinet, Florian Lemaitre, Lionel Lacassagne, Thierry Géra
 It provides many GPU and CPU implementations for the max-tree construction as well as many GPU variations. This code
 should only be used to reproduce the benchmarks, it does not have a stable API.
 
-Configure your environment using the commands below. Make sure the **-DCMAKE_CUDA_COMPILER="** points to the location of your install nvcc
+Configure your environment using the commands below. Make sure the **"-DCMAKE_CUDA_COMPILER="** points to the location of your install nvcc
 
 ```shell
 mkdir build && cd build
