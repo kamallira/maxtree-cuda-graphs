@@ -71,7 +71,7 @@ This mode measures **end-to-end performance**, including:
 Run:
 
 ```shell
-./bin/TestMaxtree --no-check ./test.pgm
+> ./bin/TestMaxtree --no-check ./test.pgm
 ```
 
 ### 2. Kernel-only benchmark (no memory transfers)
@@ -81,7 +81,7 @@ This mode measures **GPU kernel execution time only**, excluding all host–devi
 Run:
 
 ```shell
-./bin/TestMaxtree --no-check --bench-kernel-only ./test.pgm
+> ./bin/TestMaxtree --no-check --bench-kernel-only ./test.pgm
 ```
 
 ## Test Images
