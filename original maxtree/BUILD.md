@@ -91,6 +91,5 @@ The benchmark experiments use grayscale images in **PGM format**.
 The primary test image used in the experiments can be downloaded from the following link:
 
 - **Test image (PGM)**:  
-  https://drive.google.com/file/d/1kb79XAXE1A_ioj8cBvhV2H70QLDZDSXg/view?usp=drive_link
-
+  [https://drive.google.com/drive/folders/1zxxVqUco6WYaCPk1M9MeMf9G7E8CPkk7?usp=drive_link]
 
