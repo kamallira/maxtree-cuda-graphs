@@ -5,9 +5,9 @@ This folder holds code for running benchmarks adapted from https://gitlab.lre.ep
 Nicolas Blin, Edwin Carlinet, Florian Lemaitre, Lionel Lacassagne, Thierry Géraud. Max-tree Computation on GPUs. 2022. ⟨hal-03556296⟩
 
 It provides many GPU and CPU implementations for the max-tree construction as well as many GPU variations. This code
-should only be used to reproduce the benchmarks, it does not have a stable API (we are currently working on a more
-stable API with only GPU's code).
+should only be used to reproduce the benchmarks, it does not have a stable API.
 
+Configure your environment using the commands below. Make sure the **-DCMAKE_CUDA_COMPILER="** points to the location of your install nvcc
 
 ```shell
 mkdir build && cd build
