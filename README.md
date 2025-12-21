@@ -37,7 +37,7 @@ Ensure that nvcc is correctly installed and note its absolute path.
 From the root of the repository:
 
 
-shell
+```shell
 > mkdir build && cd build
 > conan install .. --output-folder=. --build=missing -s compiler.cppstd=20
 > cmake .. \
@@ -46,7 +46,7 @@ shell
     -DCMAKE_BUILD_TYPE=Release \
     -G Ninja
 > ninja
-
+```
 
 ## Running the Benchmarks
 
@@ -73,8 +73,9 @@ This mode measures **end-to-end performance**, including:
 Run:
 
 
-shell
+```shell
 > ./bin/TestMaxtree --no-check ./test.pgm
+```
 
 
 ### 2. Kernel-only benchmark (no memory transfers)
@@ -84,8 +85,9 @@ This mode measures **GPU kernel execution time only**, excluding all host–devi
 Run:
 
 
-shell
+```shell
 > ./bin/TestMaxtree --no-check --bench-kernel-only ./test.pgm
+```
 
 
 ## Test Images
