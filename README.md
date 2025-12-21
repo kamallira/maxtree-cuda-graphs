@@ -54,41 +54,9 @@ All benchmark executables are generated in the bin/ directory after a successful
 
 Before running any benchmark, make sure you have downloaded the test image (see **Test Image** section below) and that you are running from the project root or build/ directory as appropriate.
 
----
-
-### Benchmark Modes
-
-The benchmark supports two execution modes:
-
----
-
-### 1. Full pipeline benchmark (with memory transfers)
-
-This mode measures **end-to-end performance**, including:
-
-- Host → Device memory transfers
-- GPU kernel execution
-- Device → Host memory transfers
-
-Run:
-
-
 ```shell
 > ./bin/TestMaxtree --no-check ./test.pgm
 ```
-
-
-### 2. Kernel-only benchmark (no memory transfers)
-
-This mode measures **GPU kernel execution time only**, excluding all host–device memory transfers. It is useful for evaluating the intrinsic efficiency of the CUDA kernels without PCIe overhead.
-
-Run:
-
-
-```shell
-> ./bin/TestMaxtree --no-check --bench-kernel-only ./test.pgm
-```
-
 
 ## Test Images
 
