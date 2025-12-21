@@ -1,0 +1,9 @@
+[requires]
+pylene/head@lrde/stable
+onetbb/[>=2020.0]
+gtest/1.10.0
+benchmark/[>=1.5]
+
+[generators]
+CMakeDeps
+CMakeToolchain
