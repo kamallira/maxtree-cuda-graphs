@@ -67,9 +67,3 @@ The primary test image used in the experiments can be downloaded from the follow
 - **Test image (PGM)**:  
   [https://drive.google.com/drive/folders/1zxxVqUco6WYaCPk1M9MeMf9G7E8CPkk7?usp=drive_link]
 
-
-The original implementation is based on the work:
-
-N. Blin et al., *“Max-Tree Computation on GPUs,”* IEEE Transactions on Parallel and Distributed Systems, 2022.
-
-
